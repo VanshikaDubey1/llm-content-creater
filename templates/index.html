@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Social Media Content Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Social Media Content Generator</h1>
+        <form method="POST" class="content-form">
+            <input
+                type="text"
+                name="topic"
+                placeholder="Enter your topic..."
+                required
+                autocomplete="off"
+            />
+            <select name="style" required>
+                <option value="" disabled selected>Select style</option>
+                <option value="emotional">Emotional</option>
+                <option value="funny">Funny</option>
+                <option value="sexy">Sexy</option>
+                <option value="savage">Savage</option>
+            </select>
+            <button type="submit">Generate</button>
+        </form>
+
+        {% if result %}
+        <div class="output">
+            <h2>Generated Content</h2>
+            <p>{{ result }}</p>
+            <button id="copyBtn">Copy to Clipboard</button>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+      const copyBtn = document.getElementById('copyBtn');
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          const text = document.querySelector('.output p').innerText;
+          navigator.clipboard.writeText(text).then(() => {
+            copyBtn.innerText = "Copied!";
+            setTimeout(() => (copyBtn.innerText = "Copy to Clipboard"), 2000);
+          });
+        });
+      }
+    </script>
+</body>
+</html>
