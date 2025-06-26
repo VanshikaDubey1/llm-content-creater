@@ -5,20 +5,13 @@ A fast and private local Flask app that generates emotional, funny, sexy, or sav
 Generate captions for any topic in 4 styles: emotional, funny, sexy, savage
 Uses Mistral model through Ollama
 Beautiful, mobile-responsive UI
+
+
+
 Local-only: No internet or API key required
 Copy-to-clipboard feature
 
-### 🏠 Home Page
-
-<img src="Screenshot%202025-06-26%20234933.png" width="600"/>
-
-### ✍️ Output Page
-
-<img src="Screenshot%202025-06-26%20235441.png" width="600"/>
-
-
-
-
+ 
 🛠 Requirements
 Python 3.7+
 Ollama installed and running locally
@@ -53,6 +46,19 @@ llm-content-creater/
 💡 Example Prompt Topic: Coffee Style: Savage 📝 Output:
 
 "Without coffee, I’m basically a WiFi router with no signal."
+
+
+
+### 🏠 Home Page
+
+<img src="Screenshot%202025-06-26%20234933.png" width="600"/>
+
+### ✍️ Output Page
+
+<img src="Screenshot%202025-06-26%20235441.png" width="600"/>
+
+
+
 
 
 ⚡ Tips If it's slow: you're running on CPU. For faster results, use a GPU.
