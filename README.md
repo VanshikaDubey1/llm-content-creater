@@ -35,11 +35,25 @@ Make sure Ollama is running: ollama serve Run the Flask app: python app.py
 
 Visit in browser: http://localhost:5000
 
-📁 Project Structure llama-content-gen/ │ ├── app.py ├── requirements.txt ├── README.md ├── static/ │ └── style.css └── templates/ └── index.html
+structure 
+
+llm-content-creater/
+├── app.py
+├── static/
+├── templates/
+├── requirements.txt
+├── README.md
+├── Screenshot 2025-06-26 234933.png
+├── Screenshot 2025-06-26 235441.png
+
+
+
+
 
 💡 Example Prompt Topic: Coffee Style: Savage 📝 Output:
 
 "Without coffee, I’m basically a WiFi router with no signal."
+
 
 ⚡ Tips If it's slow: you're running on CPU. For faster results, use a GPU.
 
@@ -48,5 +62,6 @@ Try other models too: ollama pull llama2 ollama pull codellama
 🧠 Powered By Flask Mistral Model Ollama
 
 HTML + CSS (with Google Fonts)
+
 
 🙌 Credits Built by Vanshika 🦋
