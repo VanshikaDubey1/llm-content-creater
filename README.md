@@ -12,7 +12,7 @@ Python 3.7+
 Ollama installed and running locally
 Mistral model pulled via Ollama:
 ollama pull mistral
-📦 Installation Clone this repo: git clone https://github.com/VanshikaDubey1/Social-Content-Generator-using-LLM.git cd Social-Content-Generator-using-LLM cd llama-content-gen
+📦 Installation Clone this repo: git clone https://github.com/VanshikaDubey1/llm-content-creater.git cd Social-Content-Generator-using-LLM cd llama-content-gen
 
 Install Python dependencies: pip install -r requirements.txt
 
