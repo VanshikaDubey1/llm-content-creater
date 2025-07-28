@@ -1,3 +1,6 @@
+
+### LLM CONTENT CREATER
+
 🧠 Social Media Content Generator using Ollama + Mistral
 A fast and private local Flask app that generates emotional, funny, sexy, or savage social media captions using the Mistral model via Ollama.
 
